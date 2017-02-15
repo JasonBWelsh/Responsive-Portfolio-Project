@@ -10,7 +10,7 @@
 
 body {
 	margin: 0;
-	background: #edeff0;
+	background: #ccf7ff;/*#edeff0;*/
 	color: #576366;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-size: 1.1rem;
@@ -71,12 +71,12 @@ img {
 .main-header {
 	font-family: 'Kranky', 'Lato', Helvetica, Arial, sans-serif;
 	font-size: 1.2rem;
-	background: #fff;
+	/*background: #fff;*/
 	width: 100%;
 	max-width: 100%;
 	text-align: center;
 	padding: 1em 1em 0 1em;
-	margin-bottom: 50px; /* to push down banner content */
+	margin-bottom: 20px; /* to push down banner content */
 }
 
 .name {
@@ -85,6 +85,8 @@ img {
 
 .main-nav li {
 	border-bottom: 1px solid #edeff0;
+	background: #fff;
+	margin-bottom: 10px;
 }
 
 .main-nav a {
@@ -116,18 +118,18 @@ img {
 }
 
 main {
-	background: #fff;
+	/*background: #fff;*/
 }
 
 .portfolio,
 .skills {
-	background: #fff;
+	/*background: #fff;*/
 }
 
 
 .banner {
-	background: #edeff0;
-	padding-bottom: 20px;
+	background: #fff;
+	padding: 20px;
 }
 
 .portfolio {
@@ -145,8 +147,12 @@ main {
 }
 
 .contact {
-	background: #fff;
+	/*background: #fff;*/
 	border-bottom: 1px solid #fff;
+}
+
+.main-footer {
+	background: #fff;
 }
 
 /* Banner ***/
@@ -177,12 +183,12 @@ main {
 /* Skills ***/
 
 .skills-list ul {
-	background: #edeff0;
+	/*background: #fff;*/
 }
 
 .skills ul li {
 	border-bottom: 1px solid #fff;
-	/*background: #edeff0;*/
+	background: #fff;
 	padding: .4em;
 	margin-top: 5px;
 
