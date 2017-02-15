@@ -34,7 +34,8 @@ h2,
 h3,
 h4,
 .name a,
-.main-nav a {
+.main-nav a,
+.main-footer a {
 	color: #384047;
 }
 
@@ -86,7 +87,6 @@ img {
 	border-bottom: 1px solid #edeff0;
 }
 
-
 .main-nav a {
 	display: block;
 	padding: 10px 15px;
@@ -108,19 +108,46 @@ img {
 	padding-right: 1em;
 }
 
-.banner {
+.banner,
+.portfolio,
+.skills,
+.contact {
 	text-align: center;
+}
+
+main {
+	background: #fff;
+}
+
+.portfolio,
+.skills {
+	background: #fff;
+}
+
+
+.banner {
+	background: #edeff0;
 	padding-bottom: 20px;
 }
 
 .portfolio {
-	background: #fff;
-	text-align: center;
+	border-bottom: 1px solid #edeff0;
+}
+
+.portfolio,
+.skills {
+	/*text-align: center;*/
 	padding-top: 20px;
+}
+
+.skills {
 	padding-bottom: 20px;
 }
 
-
+.contact {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
 
 /* Banner ***/
 
@@ -147,3 +174,45 @@ img {
 	padding-bottom: 30px;
 }
 
+/* Skills ***/
+
+.skills-list ul {
+	background: #edeff0;
+}
+
+.skills ul li {
+	border-bottom: 1px solid #fff;
+	/*background: #edeff0;*/
+	padding: .4em;
+	margin-top: 5px;
+
+}
+
+/* Contact ***/
+
+.contact > h2 {
+	margin-top: 30px;
+}
+
+.contact-list li {
+	padding-bottom: 20px;
+}
+
+/* Footer ***/
+
+.footer-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-list li:first-child {
+	margin-left: 1em;
+}
+
+.footer-list li:last-child {
+	margin-right: 1em;
+}
+
+.main-footer a {
+	font-family: 'Kranky';
+}
