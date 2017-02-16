@@ -10,7 +10,7 @@
 
 body {
 	margin: 0;
-	background: #c4f9fc; /*#ccf7ff;*/
+	background: #c4f9fc; 
 	color: #576366;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-size: 1.1rem;
@@ -36,12 +36,11 @@ h4,
 .name a,
 .main-nav a,
 .main-footer a {
-	/*color: #384047;*/
 	color: #082d77;
 }
 
 h1 {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 }
 
 h2 {
@@ -146,6 +145,7 @@ img {
 
 .main-footer {
 	background: #fff;
+	border-top: 1px solid #082d77;
 }
 
 /* Banner ***/
@@ -154,6 +154,7 @@ img {
 	width: 60%;
 	box-shadow: 1px 1px 4px #576366;
 }
+
 
 /* Portfolio ***/ 
 
@@ -225,7 +226,9 @@ img {
 
 	.main-header,
 	.main-nav,
-	.row {
+	.banner-wrap,
+	.row,
+	.skills-list {
 		display: flex;
 	}
 
@@ -249,6 +252,30 @@ img {
 		padding-bottom: 3em;
 	}
 
+	.banner-wrap {
+		justify-content: space-between;
+	}
+
+	.profile-image,
+	.tag {
+
+	}
+
+	.profile-image {
+		width: 40%;
+		height: 30%;
+		margin-left: 15px;
+		flex: 1;
+	}
+
+	.tag {
+		flex: 2;
+		order: -1;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
 	.row {
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -256,5 +283,27 @@ img {
 
 	.card {
 		flex: 1 40%;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+	.skills-list {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.skills-list section {
+		margin-left: 10px;
+		margin-right: 10px;
+		flex: 1;
+	}
+
+	.footer-list li:first-child {
+	margin-left: 5em;
+	}
+
+	.footer-list li:last-child {
+	margin-right: 5em;
 	}
 }
